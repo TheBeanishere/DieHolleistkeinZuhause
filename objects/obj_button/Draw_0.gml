@@ -1,0 +1,5 @@
+draw_set_font(global.bigfont)
+randomize()
+draw_set_valign(fa_middle)
+draw_text_transformed(x + irandom_range(-2, 2), y, string_copy(name, 1, letter), textsize, textsize, 0)
+draw_set_valign(fa_top)
