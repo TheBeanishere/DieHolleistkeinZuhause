@@ -38,6 +38,8 @@
   "name":"Die Hölle ist kein Zuhause",
   "resources":[
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
+    {"id":{"name":"obj_door_left","path":"objects/obj_door_left/obj_door_left.yy",},},
+    {"id":{"name":"obj_door_right","path":"objects/obj_door_right/obj_door_right.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_logo","path":"objects/obj_logo/obj_logo.yy",},},
     {"id":{"name":"obj_office","path":"objects/obj_office/obj_office.yy",},},
