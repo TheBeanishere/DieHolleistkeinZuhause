@@ -1,3 +1,7 @@
-transanim = 0
 image_xscale = -1
-image_alpha = 0
+x = obj_office.x+1950
+y = obj_office.y
+transanim = noone
+lightalpha = 1
+flicker = 0
+clicked = false

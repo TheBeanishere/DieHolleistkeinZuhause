@@ -1,9 +1,11 @@
 image_index = 1
 image_speed = 0
-offsety = -40
-offsetx = -335
-originx = x
-originy = y
+lightleft = false
+lightright = false
+doorleft = false
+doorright = false
 
-leftdooralpha = 0.8
-rightdooralpha = 0.8
+powermax = 1000
+powerleft = powermax
+
+usage = 0

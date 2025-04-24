@@ -1,6 +1,10 @@
-randomize()
-randx = lerp(randx, irandom_range(-70, 70), 0.01)
-randy = lerp(randy, irandom_range(-70, 70), 0.01)
-
-x = originx + randx
-y = originy + randy
+if (letter < string_length("Die Hölle ist kein Zuhause")){
+	timer += 1
+	if (timer >= 6){
+		letter += 1
+		timer = 0
+		if (letter > 0){
+			audio_play_sound(sfx_typewrite, 1, false, 1, 0, 0.7)
+		}
+	}
+}

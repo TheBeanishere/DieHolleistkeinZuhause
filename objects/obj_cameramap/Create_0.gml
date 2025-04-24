@@ -1,0 +1,2 @@
+originx = x
+originy = y

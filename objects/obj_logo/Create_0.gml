@@ -1,4 +1,2 @@
-originx = x
-originy = y
-randx = 0
-randy = 0
+timer = 0
+letter = -3

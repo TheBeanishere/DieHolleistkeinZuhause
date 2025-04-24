@@ -1,2 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+global.cameraflipped = false
+global.camera = 1
