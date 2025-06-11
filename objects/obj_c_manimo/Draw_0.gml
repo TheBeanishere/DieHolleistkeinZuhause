@@ -1,4 +1,4 @@
-if (global.cameraflipped){
+if (global.cameraflipped && obj_game.AI_manimo > 0){
 	if (stage = 1 && global.camera = 3){
 		image_index = 2
 		draw_self()

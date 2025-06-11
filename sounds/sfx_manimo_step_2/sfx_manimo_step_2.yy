@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_manimo_step_2",
+  "audioGroupId":{
+    "name":"sfx",
+    "path":"audiogroups/sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":3.86161,
+  "name":"sfx_manimo_step_2",
+  "parent":{
+    "name":"manimo",
+    "path":"folders/Sounds/sfx/manimo.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_manimo_step_2.wav",
+  "type":1,
+  "volume":1.0,
+}

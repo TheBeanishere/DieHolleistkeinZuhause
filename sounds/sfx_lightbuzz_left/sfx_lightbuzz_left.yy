@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_lightbuzz_left",
+  "audioGroupId":{
+    "name":"sfx",
+    "path":"audiogroups/sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":12.015624,
+  "name":"sfx_lightbuzz_left",
+  "parent":{
+    "name":"sfx",
+    "path":"folders/Sounds/sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_lightbuzz_left.wav",
+  "type":1,
+  "volume":1.0,
+}

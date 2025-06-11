@@ -9,25 +9,30 @@ if (!global.cameraflipped){
 					lightalpha = 0.6
 					obj_office.lightleft = true
 					randomize()
+					audio_sound_gain(sfx_lightbuzz_left, 2, 150)
 					flicker = random_range(0, 0.05)
 				}else{
 					clicked = false
 				}
 			}else{
 				obj_office.lightleft = false
+				audio_sound_gain(sfx_lightbuzz_left, 0, 150)
 				lightalpha = lerp(lightalpha, 1, 0.05)
 			}
 		}else{
+			audio_sound_gain(sfx_lightbuzz_left, 0, 150)
 			lightalpha = lerp(lightalpha, 1, 0.05)
 			clicked = false
 		}
 	}else{
 		clicked = false
+		audio_sound_gain(sfx_lightbuzz_left, 0, 150)
 		obj_office.lightleft = false
 		lightalpha = lerp(lightalpha, 1, 0.05)
 	}
 }else{
 	clicked = false
+	audio_sound_gain(sfx_lightbuzz_left, 0, 150)
 	obj_office.lightleft = false
 	lightalpha = lerp(lightalpha, 1, 0.05)
 }

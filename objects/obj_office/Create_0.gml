@@ -9,3 +9,6 @@ powermax = 1000
 powerleft = powermax
 
 usage = 0
+
+time = 0
+hours = 0

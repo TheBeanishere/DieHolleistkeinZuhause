@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_ava_break",
+  "audioGroupId":{
+    "name":"sfx",
+    "path":"audiogroups/sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.4285715,
+  "name":"sfx_ava_break",
+  "parent":{
+    "name":"sfx",
+    "path":"folders/Sounds/sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_ava_break.wav",
+  "type":1,
+  "volume":1.0,
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_sports_kill_3",
+  "audioGroupId":{
+    "name":"sfx",
+    "path":"audiogroups/sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.5669614,
+  "name":"sfx_sports_kill_3",
+  "parent":{
+    "name":"sports",
+    "path":"folders/Sounds/sfx/sports.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_sports_kill_3.wav",
+  "type":1,
+  "volume":1.0,
+}
