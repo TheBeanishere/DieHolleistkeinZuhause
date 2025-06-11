@@ -72,6 +72,7 @@ if (obj_game.AI_mathi > 0){
 			if (stage = 8){
 				if (light){
 					
+				}else{
 					kill = true
 					obj_o_mathi.transanim = spr_office_mathi_enter
 				}

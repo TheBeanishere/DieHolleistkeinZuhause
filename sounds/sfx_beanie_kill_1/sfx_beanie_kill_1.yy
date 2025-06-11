@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_beanie_kill_1",
+  "audioGroupId":{
+    "name":"sfx",
+    "path":"audiogroups/sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.2053515,
+  "name":"sfx_beanie_kill_1",
+  "parent":{
+    "name":"beanie",
+    "path":"folders/Sounds/sfx/beanie.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_beanie_kill_1.wav",
+  "type":1,
+  "volume":1.0,
+}

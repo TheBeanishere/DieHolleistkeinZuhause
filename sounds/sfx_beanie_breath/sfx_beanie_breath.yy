@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_beanie_breath",
+  "audioGroupId":{
+    "name":"sfx",
+    "path":"audiogroups/sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":5.2053514,
+  "name":"sfx_beanie_breath",
+  "parent":{
+    "name":"beanie",
+    "path":"folders/Sounds/sfx/beanie.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_beanie_breath.wav",
+  "type":1,
+  "volume":1.0,
+}

@@ -14,10 +14,6 @@ if (obj_game.AI_mathi > 0){
 			}
 		}else{
 			if (obj_door_left.transanim = spr_office_door_close && transanim = noone && sprite_index != spr_office_mathi_stand){
-				obj_c_mathi.stage = 3
-				if (global.camera = 3){
-					scr_camerastatic()
-				}
 				transanim = spr_office_mathi_leave
 				image_index = 0
 			}

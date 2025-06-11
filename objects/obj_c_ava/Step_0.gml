@@ -12,7 +12,7 @@ if (obj_game.AI_ava > 0){
 			awake = true
 			obj_office.powerleft -= obj_office.powermax/2
 			audio_stop_sound(mus_ava_musicbox)
-			audio_play_sound(sfx_ava_break, 1, false, 1.2)
+			audio_play_sound(sfx_ava_break, 1, false, 1.4)
 		}
 	}else{
 		wind -= obj_game.AI_ava/2
