@@ -16,12 +16,12 @@ if (obj_game.AI_pravi > 0){
 		if (fuse > 0){
 			fuse -= 1
 			if (global.camera = cam && global.cameraflipped && sprite_index != spr_pravi_explode){
-				stare += .001
-				if (stare >= 120){
+				stare += 1
+				if (stare >= 160){
 					audio_stop_sound(sfx_pravi_sax_1)
 					audio_stop_sound(sfx_pravi_sax_2)
 					audio_play_sound(sfx_pravi_bonk, 1, false, 0.6)
-					movetimer = 384
+					movetimer = 38400
 					fuse = 300
 					stare = 0
 				}

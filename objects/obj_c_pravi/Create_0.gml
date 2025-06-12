@@ -1,4 +1,4 @@
-movetimer = 384
+movetimer = 38400
 fuse = 300
 stare = 0
 cam = 1
