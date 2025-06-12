@@ -14,7 +14,7 @@ audio_listener_set_orientation(0, 0, 0, 1, 0, -1, 0)
 
 //window_set_fullscreen(true)
 
-AI_mathi = 20
+AI_mathi = 0
 AI_manimo = 0
 AI_sports = 0
 AI_joetube = 0

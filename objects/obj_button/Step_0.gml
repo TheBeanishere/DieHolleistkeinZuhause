@@ -13,7 +13,10 @@ if (collision_circle(mouse_x, mouse_y, 3, self, false, false)){
 	
 	if (mouse_check_button_pressed(mb_left)){
 		if (name = "play"){
-			room_goto(NIGHT_1)
+			room_goto(MENU_custom)
+		}
+		if (name = "quit"){
+			game_end()
 		}
 	}
 }

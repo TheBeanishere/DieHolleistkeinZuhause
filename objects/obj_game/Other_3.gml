@@ -1,0 +1,1 @@
+show_question("You abandon god's light?")

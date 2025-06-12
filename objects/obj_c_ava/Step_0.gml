@@ -28,7 +28,7 @@ if (obj_game.AI_ava > 0){
 	y = obj_camera.yTo
 	
 	if (global.cameraflipped && global.camera = 8){
-		audio_sound_gain(mus_ava_musicbox, 2, 50)
+		audio_sound_gain(mus_ava_musicbox, 1.25, 50)
 	}else{
 		audio_sound_gain(mus_ava_musicbox, 0.75, 50)
 	}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_pravi_sax_1",
+  "audioGroupId":{
+    "name":"sfx",
+    "path":"audiogroups/sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":19.91517,
+  "name":"sfx_pravi_sax_1",
+  "parent":{
+    "name":"pravi",
+    "path":"folders/Sounds/sfx/pravi.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_pravi_sax_1.wav",
+  "type":1,
+  "volume":1.0,
+}

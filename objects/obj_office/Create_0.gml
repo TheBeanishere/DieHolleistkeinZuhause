@@ -5,6 +5,8 @@ lightright = false
 doorleft = false
 doorright = false
 
+disabledcams = []
+
 powermax = 1000
 powerleft = powermax
 
