@@ -6,7 +6,7 @@ if (obj_game.AI_mathi > 0){
 		image_xscale = 1
 		x = -335
 	}
-	if (obj_c_mathi.stage > 7){
+	if (obj_c_mathi.stage > 7 && !obj_c_mathi.light){
 		if (obj_c_mathi.stage = 9){
 			if (obj_door_right.transanim = spr_office_door_close && transanim = noone && sprite_index != spr_office_mathi_stand){
 				transanim = spr_office_mathi_leave

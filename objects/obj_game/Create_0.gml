@@ -8,6 +8,19 @@ draw_set_font(global.font)
 global.camera = 1
 global.cameraflipped = false
 
+customchallenge = 0
+
+//0
+custom = [0, 0, 0, 0, 0, 0, 0]
+//1
+europe = [18, 15, 15, 18, 18, 0, 0]
+//2
+annoy = [0, 14, 0, 17, 17, 12, 10]
+//3
+crackshot = [13, 13, 13, 16, 16, 16, 13]
+//4
+maxmode = [20, 20, 20, 20, 20, 20, 20]
+
 audio_listener_position(0, 0, 0)
 audio_falloff_set_model(audio_falloff_linear_distance)
 audio_listener_set_orientation(0, 0, 0, 1, 0, -1, 0)

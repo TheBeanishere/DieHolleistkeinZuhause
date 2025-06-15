@@ -1,5 +1,6 @@
 if (collision_point(mouse_x, mouse_y, self, false, false)){
 	if (mouse_wheel_up()){
+		obj_game.customchallenge = 0
 		switch (customchoose){
 			case 0:
 				obj_game.AI_mathi += 1
@@ -49,6 +50,7 @@ if (collision_point(mouse_x, mouse_y, self, false, false)){
 		}
 	}
 	if (mouse_wheel_down()){
+		obj_game.customchallenge = 0
 		switch (customchoose){
 			case 0:
 				obj_game.AI_mathi -= 1

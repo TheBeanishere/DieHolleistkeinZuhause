@@ -11,7 +11,7 @@ if (obj_game.AI_mathi > 0){
 	if (kill){
 		killtimer -= 1
 		if (killtimer <= 0){
-			if (!instance_exists(obj_jump_mathi)){
+			if (!instance_exists(obj_jumpscare)){
 				instance_create_layer(640, 400, "death", obj_jump_mathi)
 			}
 		}
@@ -57,7 +57,7 @@ if (obj_game.AI_mathi > 0){
 		}
 		
 		if (lightkill >= 210){
-			if (!instance_exists(obj_jump_mathi)){
+			if (!instance_exists(obj_jumpscare)){
 				instance_create_layer(640, 400, "death", obj_jump_mathi)
 			}
 		}
@@ -92,11 +92,11 @@ if (obj_game.AI_mathi > 0){
 					audio_play_sound_at(_voice, -70, 0, 0, 100, 200, 1, false, 1, 0.7)
 					lightactive = true
 				}
-				movetimer *= 2
+				movetimer *= 2.65
 				if (global.camera = 6){
 					scr_camerastatic()
 				}
-				if (obj_lever_left.shut){
+				if (obj_lever_left.shut && !light){
 					stage = 3
 					if (global.camera = 3){
 						scr_camerastatic()
@@ -112,11 +112,11 @@ if (obj_game.AI_mathi > 0){
 					audio_play_sound_at(_voice, 70, 0, 0, 100, 200, 1, false, 1, 0.7)
 					lightactive = true
 				}
-				movetimer *= 2
+				movetimer *= 2.65
 				if (global.camera = 7){
 					scr_camerastatic()
 				}
-				if (obj_lever_right.shut){
+				if (obj_lever_right.shut && !light){
 					stage = 3
 					if (global.camera = 3){
 						scr_camerastatic()

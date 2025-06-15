@@ -10,6 +10,14 @@ if (keyboard_check_pressed(vk_escape) && room = NIGHT_1){
 	room_goto(MENU_custom)
 }
 
-if (room = MENU_custom && keyboard_check_pressed(vk_enter)){
-	room_goto(NIGHT_1)
+if (room = MENU_custom){
+	if (keyboard_check_pressed(vk_enter)){
+		room_goto(NIGHT_1)
+	}
+	if (keyboard_check_pressed(vk_right)){
+		scr_customchallenge(customchallenge, 1)
+	}
+	if (keyboard_check_pressed(vk_left)){
+		scr_customchallenge(customchallenge, 0)
+	}
 }

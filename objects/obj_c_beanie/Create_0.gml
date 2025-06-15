@@ -1,5 +1,5 @@
-movetimer = 25200
-killtimer = 300
+movetimer = 18000
+killtimer = 360
 stare = 0
 place = 1
 

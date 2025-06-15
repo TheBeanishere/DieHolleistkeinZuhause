@@ -15,3 +15,20 @@ if (room = MENU_main){
 	}
 	draw_set_colour(c_white)
 }
+
+if (room = MENU_custom){
+	var _challenge = ""
+	if (customchallenge = 0){
+		_challenge = "Custom"
+	}else if (customchallenge = 1){
+		_challenge = "European Union"
+	}else if (customchallenge = 2){
+		_challenge = "Annoyances"
+	}else if (customchallenge = 3){
+		_challenge = "Crackshot"
+	}else if (customchallenge = 4){
+		_challenge = "Satan's Trial"
+	}
+	draw_text_transformed(64, 0, "CHALLENGE: " + _challenge, 1.75, 1.75, 0)
+}
+	

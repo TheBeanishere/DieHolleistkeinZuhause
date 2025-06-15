@@ -8,7 +8,7 @@ if (keyboard_check_pressed(vk_space)){
 	global.cameraflipped = !global.cameraflipped
 }
 
-powerleft -= usage/14
+powerleft -= usage/30
 
 if (time > 2700){
 	time = 0
@@ -25,5 +25,6 @@ if (hours = 6){
 }
 
 if (powerleft <= 0){
-	show_error("POWER OUTAGE", true)
+	show_message("POWER OUTAGE")
+	room_goto(MENU_custom)
 }

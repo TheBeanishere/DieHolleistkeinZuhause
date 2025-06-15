@@ -1,4 +1,4 @@
-if (obj_game.AI_pravi > 0){
+if (obj_game.AI_pravi > 0 && array_length(obj_office.disabledcams) < 6){
 	x = originx + obj_camera.xTo
 	y = originy + obj_camera.yTo
 	
@@ -8,8 +8,9 @@ if (obj_game.AI_pravi > 0){
 	
 	if (movetimer <= 0 && sprite_index != spr_pravi_explode){
 		if (!audio_is_playing(sfx_pravi_sax_1) && !audio_is_playing(sfx_pravi_sax_2)){
-			cam = choose(1, 2, 3, 4, 6, 7)
-			show_debug_message(string(cam))
+			do{
+				cam = choose(1, 2, 3, 4, 6, 7)
+			}until (!array_contains(obj_office.disabledcams, cam))
 			var _sax = choose(sfx_pravi_sax_1, sfx_pravi_sax_2)
 			audio_play_sound(_sax, 1, true, 0.6)
 		}
@@ -22,7 +23,8 @@ if (obj_game.AI_pravi > 0){
 					audio_stop_sound(sfx_pravi_sax_2)
 					audio_play_sound(sfx_pravi_bonk, 1, false, 0.6)
 					movetimer = 38400
-					fuse = 300
+					scr_camerastatic()
+					fuse = 600
 					stare = 0
 				}
 			}

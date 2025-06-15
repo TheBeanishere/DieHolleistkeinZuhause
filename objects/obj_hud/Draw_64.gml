@@ -1,7 +1,7 @@
 draw_set_font(global.font)
 draw_set_colour(c_white)
 var _power = round((obj_office.powerleft/obj_office.powermax)*100)
-var _text = "Power:" + string(_power) + "%\nUsage:" + string(floor(obj_office.usage)) + "\n" + string(obj_office.powerleft)
+var _text = "Power:" + string(_power) + "%\nUsage:" + string(floor(obj_office.usage))
 draw_text_transformed(0, 0,  _text, 0.75, 0.75, 0)
 draw_set_halign(fa_right)
 if (obj_office.hours = 0){

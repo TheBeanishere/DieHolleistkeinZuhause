@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":5.2053514,
+  "duration":4.357143,
   "name":"sfx_beanie_breath",
   "parent":{
     "name":"beanie",

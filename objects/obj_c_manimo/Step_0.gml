@@ -11,7 +11,7 @@ if (obj_game.AI_manimo > 0){
 	if (stage = 6){
 		killtimer -= 1
 		if (killtimer <= 0){
-			if (!instance_exists(obj_jump_manimo)){	
+			if (!instance_exists(obj_jumpscare)){	
 				instance_create_layer(640, 400, "death", obj_jump_manimo)
 			}
 		}
@@ -59,7 +59,7 @@ if (obj_game.AI_manimo > 0){
 					mirror = _mirror
 				}
 				if (stage = 5){
-					movetimer *= 2
+					movetimer *= 2.65
 					var _voice = choose(sfx_manimo_aggro_1, sfx_manimo_aggro_2, sfx_manimo_aggro_3, sfx_manimo_aggro_4)
 					if (mirror){
 						audio_play_sound_at(_voice, 30, 0, 0, 100, 200, 1, false, 1)

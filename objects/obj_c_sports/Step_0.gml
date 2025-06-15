@@ -3,7 +3,7 @@ if (obj_game.AI_sports > 0){
 		killtimer -= 1
 		if (killtimer <= 0){
 			if ((right && !obj_lever_right.shut)||(!right && !obj_lever_left.shut)){
-				if (!instance_exists(obj_jump_sports)){	
+				if (!instance_exists(obj_jumpscare)){	
 					instance_create_layer(640, 400, "death", obj_jump_sports)
 				}
 			}else{
