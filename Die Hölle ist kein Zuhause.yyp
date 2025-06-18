@@ -42,6 +42,7 @@
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"lang.txt","CopyToMask":-1,"filePath":"datafiles","name":"lang.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"thefont.ttf","CopyToMask":-1,"filePath":"datafiles","name":"thefont.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
@@ -91,6 +92,8 @@
     {"id":{"name":"init","path":"rooms/init/init.yy",},},
     {"id":{"name":"MENU_custom","path":"rooms/MENU_custom/MENU_custom.yy",},},
     {"id":{"name":"MENU_main","path":"rooms/MENU_main/MENU_main.yy",},},
+    {"id":{"name":"MENU_savecreate","path":"rooms/MENU_savecreate/MENU_savecreate.yy",},},
+    {"id":{"name":"MENU_saveload","path":"rooms/MENU_saveload/MENU_saveload.yy",},},
     {"id":{"name":"NIGHT_1","path":"rooms/NIGHT_1/NIGHT_1.yy",},},
     {"id":{"name":"scr_camerastatic","path":"scripts/scr_camerastatic/scr_camerastatic.yy",},},
     {"id":{"name":"scr_customchallenge","path":"scripts/scr_customchallenge/scr_customchallenge.yy",},},
@@ -205,6 +208,8 @@
     {"roomId":{"name":"MENU_main","path":"rooms/MENU_main/MENU_main.yy",},},
     {"roomId":{"name":"NIGHT_1","path":"rooms/NIGHT_1/NIGHT_1.yy",},},
     {"roomId":{"name":"MENU_custom","path":"rooms/MENU_custom/MENU_custom.yy",},},
+    {"roomId":{"name":"MENU_saveload","path":"rooms/MENU_saveload/MENU_saveload.yy",},},
+    {"roomId":{"name":"MENU_savecreate","path":"rooms/MENU_savecreate/MENU_savecreate.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

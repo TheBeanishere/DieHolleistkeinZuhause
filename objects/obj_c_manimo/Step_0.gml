@@ -59,7 +59,7 @@ if (obj_game.AI_manimo > 0){
 					mirror = _mirror
 				}
 				if (stage = 5){
-					movetimer *= 2.65
+					movetimer *= 1.8
 					var _voice = choose(sfx_manimo_aggro_1, sfx_manimo_aggro_2, sfx_manimo_aggro_3, sfx_manimo_aggro_4)
 					if (mirror){
 						audio_play_sound_at(_voice, 30, 0, 0, 100, 200, 1, false, 1)

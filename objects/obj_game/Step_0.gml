@@ -1,5 +1,9 @@
 if (room = init && audio_group_is_loaded(sfx) && audio_group_is_loaded(music)){
-	room_goto(MENU_main)
+	if (files = []){
+		room_goto(MENU_savecreate)
+	}else{
+		room_goto(MENU_saveload)
+	}
 }
 
 if (keyboard_check_pressed(vk_f11)){

@@ -1,8 +1,9 @@
-Power Drainage - power -= usage/11
-Hypersensitive - Failing to prevent Pravi, Joetube or Ava from fully progressing now results in instant death
-Caffienated - Everyone moves much faster
-Special Guests - Roachy and Coconut are here
-Starving - Pravi drains power even faster
+Power Drainage - Power ambiently drains more
+Mute-thi - Mathi no longer speaks
+Manimovin' - Manimo moves faster
 Bookin' it - Sports now runs as soon as he talks
 Charge damn you - Ava's music box charges slower and Joetube's audio lure has a longer cooldown
-Last chance to look at me - Beanie and Pravi now require the cameras to be up in order to be shoo'd off
+Last chance to look at me - Beanie and Pravi go away instantly, but have less grace time
+Door jam - Doors cannot be opened immediately after being shut
+Special Guests - Roachy and Coconut are here
+Mathi Mode - Adds Mathi5000, Marvel2500, Liru, and Stitcher

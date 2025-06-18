@@ -8,6 +8,22 @@ draw_set_font(global.font)
 global.camera = 1
 global.cameraflipped = false
 
+files = []
+var file_name = file_find_first("*.sav", fa_none);
+
+while (file_name != "")
+{
+    array_insert(files, 0, file_name);
+
+    file_name = file_find_next();
+}
+
+file_find_close();
+
+show_debug_message(string(files))
+
+global.savefile = ""
+
 customchallenge = 0
 
 //0
