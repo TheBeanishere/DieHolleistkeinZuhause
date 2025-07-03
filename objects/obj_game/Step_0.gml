@@ -2,7 +2,7 @@ if (room = init && audio_group_is_loaded(sfx) && audio_group_is_loaded(music)){
 	room_goto(boot)
 }
 
-if (keyboard_check_pressed(vk_f11)){
+if (keyboard_check_pressed(vk_f11) && room != INTER_night5cutscene){
 	window_set_fullscreen(!window_get_fullscreen())
 }
 
@@ -18,6 +18,11 @@ if (room = MENU_savecreate){
 			if (namedeny){
 				var _pitch = random_range(0.9, 1.1)
 				audio_play_sound(sfx_WRONG, 1, false, 1, 0, _pitch)
+			}else{
+				ini_open(savedata)
+				ini_write_string("data", "name", name)
+				ini_close()
+				room_goto(MENU_main)
 			}
 		}
 	}else{
@@ -51,12 +56,14 @@ if (room = MENU_savecreate){
 					nameline = ini_read_string("nononames", _tempstring, "fuck")
 					ini_close()
 					namedeny = false
+					name = _tempstring
 				}
 				_times += 1
 			}
 			if (nameline = ""){
 				nameline = "ARE YOU SURE?"
 				namedeny = false
+				name = _tempstring
 			}
 		}else if (keyboard_check_pressed(vk_anykey)){
 			var _pitch = random_range(0.9, 1.1)

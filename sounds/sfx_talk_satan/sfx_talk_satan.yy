@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_talk_satan",
+  "audioGroupId":{
+    "name":"sfx",
+    "path":"audiogroups/sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.33927438,
+  "name":"sfx_talk_satan",
+  "parent":{
+    "name":"sfx",
+    "path":"folders/Sounds/sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_talk_satan.wav",
+  "type":1,
+  "volume":1.0,
+}

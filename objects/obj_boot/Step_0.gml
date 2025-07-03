@@ -15,10 +15,10 @@ if (_rand = 9 && timer > 60 && timer < 120){
 if (timer > 120){
 	image_alpha -= 0.015
 	if (image_alpha <= 0){
-		if (obj_game.files = []){
+		if (obj_game.name = ""){
 			room_goto(MENU_savecreate)
 		}else{
-			room_goto(MENU_savecreate)
+			room_goto(INTER_night5cutscene)
 		}
 	}
 }

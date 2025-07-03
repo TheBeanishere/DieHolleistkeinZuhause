@@ -13,20 +13,11 @@ if (room = MENU_main){
 			_x += 120
 		}
 	}
-	draw_set_colour(c_white)
-}
-
-if (room = MENU_saveload){
-	var _string = ""
-	var _numb = 0
-	repeat(array_length(files)){
-		_string = _string + "\n" + string(array_get(files, _numb))
-		_numb += 1
-	}
-	draw_set_halign(fa_center)
-	draw_set_font(global.bigfont)
-	draw_text(640, 0, _string)
+	draw_set_colour(c_grey)
+	draw_set_halign(fa_right)
+	draw_text(1280, 0, name + "'S SAVE DATA")
 	draw_set_halign(fa_left)
+	draw_set_colour(c_white)
 }
 
 if (room = MENU_savecreate){
