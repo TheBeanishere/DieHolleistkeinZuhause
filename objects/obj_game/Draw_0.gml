@@ -16,6 +16,38 @@ if (room = MENU_main){
 	draw_set_colour(c_white)
 }
 
+if (room = MENU_saveload){
+	var _string = ""
+	var _numb = 0
+	repeat(array_length(files)){
+		_string = _string + "\n" + string(array_get(files, _numb))
+		_numb += 1
+	}
+	draw_set_halign(fa_center)
+	draw_set_font(global.bigfont)
+	draw_text(640, 0, _string)
+	draw_set_halign(fa_left)
+}
+
+if (room = MENU_savecreate){
+	var _string = ""
+	var _r = 0
+
+	repeat(array_length(tempname)){
+		_string = _string + chr(tempname[_r])
+		_r += 1
+	}
+	draw_set_halign(fa_center)
+	draw_set_font(global.bigfont)
+	if (nameconfirm){
+		draw_text(640, 180, nameline)
+	}else{
+		draw_text(640, 180, "PLEASE INPUT YOUR NAME")
+	}
+	draw_text(640, 360, "'" + _string + "'")
+	draw_set_halign(fa_left)
+}
+
 if (room = MENU_custom){
 	var _challenge = ""
 	if (customchallenge = 0){

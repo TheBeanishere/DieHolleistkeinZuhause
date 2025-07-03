@@ -1,0 +1,1 @@
+audio_play_sound(sfx_boot, 1, false)

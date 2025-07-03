@@ -41,8 +41,6 @@ audio_listener_position(0, 0, 0)
 audio_falloff_set_model(audio_falloff_linear_distance)
 audio_listener_set_orientation(0, 0, 0, 1, 0, -1, 0)
 
-//window_set_fullscreen(true)
-
 AI_mathi = 0
 AI_manimo = 0
 AI_sports = 0
@@ -55,3 +53,10 @@ AI_roachy = 0
 AI_coconut = 0
 
 menusquarecount = 27
+
+tempname = []
+nameconfirm = false
+namedeny = false
+nameline = ""
+nononames = ["BEANIE", "MATHI5000", "MARVEL2500", "BEAN", "LYDIA", "BEANIE BOPPER", "MATHI", "MATHIS", "PRAVI", "CHRISTIAN", "SPORTS", "MANIMO", "ROACHY", "SILVERROACHY", "COCONUT", "JOETUBE", "AVA", "MARVEL", "STITCHER", "FUCK YOU", "FUCKYOU", "FUCKU", "F U", "FUCK U", "ORENG", "SANS", "ALEX", "ALEXTHEFUNNY", "THEFUNNY", "LIRU"]
+specialnames = ["JESSE", "BRITTNEY", "MITCH", "ZANY", "WILLOW", "FIERE"]

@@ -9,8 +9,8 @@
   "name":"obj_lever_left",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"office",
+    "path":"folders/Objects/office.yy",
   },
   "parentObjectId":null,
   "persistent":false,

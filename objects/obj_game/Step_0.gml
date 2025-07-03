@@ -1,10 +1,5 @@
 if (room = init && audio_group_is_loaded(sfx) && audio_group_is_loaded(music)){
-	//if (files = []){
-	//	room_goto(MENU_savecreate)
-	//}else{
-	//	room_goto(MENU_saveload)
-	//}
-	room_goto(MENU_main)
+	room_goto(boot)
 }
 
 if (keyboard_check_pressed(vk_f11)){
@@ -13,6 +8,63 @@ if (keyboard_check_pressed(vk_f11)){
 
 if (keyboard_check_pressed(vk_escape) && room = NIGHT_1){
 	room_goto(MENU_custom)
+}
+
+if (room = MENU_savecreate){
+	if (nameconfirm){
+		if (keyboard_check_pressed(vk_backspace)){
+			nameconfirm = false
+		}else if (keyboard_check_pressed(vk_enter)){
+			if (namedeny){
+				var _pitch = random_range(0.9, 1.1)
+				audio_play_sound(sfx_WRONG, 1, false, 1, 0, _pitch)
+			}
+		}
+	}else{
+		if (keyboard_check_pressed(vk_backspace)){
+			array_delete(tempname, array_length(tempname)-1, 1)
+		}else if (keyboard_check_pressed(vk_enter)){
+			nameconfirm = true
+			nameline = ""
+			var _tempstring = ""
+			var _times = 0
+			repeat(array_length(tempname)){
+				_tempstring = _tempstring + chr(tempname[_times])
+				_times += 1
+			}
+			_times = 0
+			repeat(array_length(nononames)){
+				var _arrayget = array_get(nononames, _times)
+				if (string(_arrayget) = string(_tempstring)){
+					ini_open("lang.txt")
+					nameline = ini_read_string("nononames", _tempstring, "fuck")
+					ini_close()
+					namedeny = true
+				}
+				_times += 1
+			}
+			_times = 0
+			repeat(array_length(specialnames)){
+				var _arrayget = array_get(specialnames, _times)
+				if (_arrayget = _tempstring){
+					ini_open("lang.txt")
+					nameline = ini_read_string("nononames", _tempstring, "fuck")
+					ini_close()
+					namedeny = false
+				}
+				_times += 1
+			}
+			if (nameline = ""){
+				nameline = "ARE YOU SURE?"
+				namedeny = false
+			}
+		}else if (keyboard_check_pressed(vk_anykey)){
+			var _pitch = random_range(0.9, 1.1)
+			audio_play_sound(sfx_typewrite, 1, false, 0.7, 0, _pitch)
+			var _key = keyboard_lastkey
+			array_push(tempname, _key)
+		}
+	}
 }
 
 if (room = MENU_custom){
