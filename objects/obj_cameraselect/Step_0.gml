@@ -1,7 +1,7 @@
 x = originx + obj_camera.xTo
 y = originy + obj_camera.yTo
 
-image_index = camID - 1 + (selected * 8)
+image_index = camID - 1 + (selected * 11)
 
 if (collision_point(mouse_x, mouse_y, self, false, false) && global.cameraflipped){
 	if (mouse_check_button_pressed(mb_left)){

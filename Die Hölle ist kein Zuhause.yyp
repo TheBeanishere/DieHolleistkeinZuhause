@@ -168,6 +168,7 @@
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_camera_buttons_ava","path":"sprites/spr_camera_buttons_ava/spr_camera_buttons_ava.yy",},},
     {"id":{"name":"spr_camera_buttons_joetube","path":"sprites/spr_camera_buttons_joetube/spr_camera_buttons_joetube.yy",},},
+    {"id":{"name":"spr_camera_buttons_shock","path":"sprites/spr_camera_buttons_shock/spr_camera_buttons_shock.yy",},},
     {"id":{"name":"spr_camera_buttons","path":"sprites/spr_camera_buttons/spr_camera_buttons.yy",},},
     {"id":{"name":"spr_camera_map","path":"sprites/spr_camera_map/spr_camera_map.yy",},},
     {"id":{"name":"spr_camera","path":"sprites/spr_camera/spr_camera.yy",},},
