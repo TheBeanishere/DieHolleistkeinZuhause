@@ -12,6 +12,6 @@ if (room = MENU_custom){
 	audio_play_sound(mus_scary, 1, true)
 }
 
-if (room = NIGHT_1){
+if (room = GAME){
 	audio_play_sound(mus_customnightmaxmodeflumpyknockoff, 1, true)
 }

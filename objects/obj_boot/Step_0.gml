@@ -18,7 +18,7 @@ if (timer > 120){
 		if (obj_game.name = ""){
 			room_goto(MENU_savecreate)
 		}else{
-			room_goto(INTER_night5cutscene)
+			room_goto(MENU_main)
 		}
 	}
 }

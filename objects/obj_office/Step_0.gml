@@ -25,6 +25,16 @@ if (hours = 6){
 }
 
 if (powerleft <= 0){
-	show_message("POWER OUTAGE")
-	room_goto(MENU_custom)
+	if (obj_lever_left.shut){
+		obj_lever_left.shut = false
+		obj_door_left.transanim = spr_office_door_off
+		obj_door_left.image_index = 0
+		audio_play_sound_at(sfx_door_open, -50, 0, 0, 100, 200, 1, false, 1, 0.7)
+	}
+	if (obj_lever_right.shut){
+		obj_lever_right.shut = false
+		obj_door_right.transanim = spr_office_door_off
+		obj_door_right.image_index = 0
+		audio_play_sound_at(sfx_door_open, 50, 0, 0, 100, 200, 1, false, 1, 0.7)
+	}
 }

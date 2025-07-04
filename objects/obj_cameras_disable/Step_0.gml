@@ -1,7 +1,5 @@
 if (array_contains(obj_office.disabledcams, global.camera)){
-	image_index = 8
-	x = obj_camera.xTo - 22
-	image_xscale = 0.825
+	x = obj_camera.xTo
 }
 y = obj_camera.yTo
 if (pan){

@@ -3,7 +3,11 @@ if (obj_game.AI_beanie > 0){
 	y = originy + obj_camera.yTo
 	if (movetimer > 0){
 		do{	
-			place = choose(1, 2, 3, 4, 6, 7)
+			if (night = 1||night = 2||night = 3||night = 4){
+				place = choose(1, 2, 3, 4, 6, 7)
+			}else{
+				place = choose(1, 2, 3, 4, 6, 7, 9, 10, 11)
+			}
 		}until (place != global.camera)
 		image_index = irandom_range(0, 3)
 		if (obj_c_pravi.movetimer > 0){	

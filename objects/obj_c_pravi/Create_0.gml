@@ -1,5 +1,5 @@
-movetimer = 38400
-fuse = 600
+movetimer = 38400/20
+fuse = 600/10
 stare = 0
 cam = 1
 

@@ -6,7 +6,7 @@ if (keyboard_check_pressed(vk_f11) && room != INTER_night5cutscene){
 	window_set_fullscreen(!window_get_fullscreen())
 }
 
-if (keyboard_check_pressed(vk_escape) && room = NIGHT_1){
+if (keyboard_check_pressed(vk_escape) && room = GAME){
 	room_goto(MENU_custom)
 }
 
@@ -76,7 +76,7 @@ if (room = MENU_savecreate){
 
 if (room = MENU_custom){
 	if (keyboard_check_pressed(vk_enter)){
-		room_goto(NIGHT_1)
+		room_goto(GAME)
 	}
 	if (keyboard_check_pressed(vk_right)){
 		scr_customchallenge(customchallenge, 1)
