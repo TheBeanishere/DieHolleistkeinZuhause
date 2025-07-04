@@ -25,7 +25,7 @@ function scr_customchallenge(_challenge, _right){
 		_challengearray = obj_game.maxmode
 	}
 	
-	obj_game.AI_mathi = array_get(_challengearray, 0)
+	obj_game.AI_satan = array_get(_challengearray, 0)
 	obj_game.AI_manimo = array_get(_challengearray, 1)
 	obj_game.AI_sports = array_get(_challengearray, 2)
 	obj_game.AI_joetube = array_get(_challengearray, 3)
@@ -36,7 +36,7 @@ function scr_customchallenge(_challenge, _right){
 	with (obj_customnight){
 		switch (customchoose){
 			case 0:
-				myai = obj_game.AI_mathi
+				myai = obj_game.AI_satan
 			break;
 			case 1:
 				myai = obj_game.AI_manimo

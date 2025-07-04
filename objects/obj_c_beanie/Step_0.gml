@@ -5,8 +5,10 @@ if (obj_game.AI_beanie > 0){
 		do{	
 			place = choose(1, 2, 3, 4, 6, 7)
 		}until (place != global.camera)
-		image_index = irandom_range(0, 2)
-		movetimer -= obj_game.AI_beanie
+		image_index = irandom_range(0, 3)
+		if (obj_c_pravi.movetimer > 0){	
+			movetimer -= obj_game.AI_beanie
+		}
 	}else{
 		if (!audio_is_playing(sfx_beanie_breath) && killtimer > 0){
 			audio_play_sound(sfx_beanie_breath, 1, true, 0.8)

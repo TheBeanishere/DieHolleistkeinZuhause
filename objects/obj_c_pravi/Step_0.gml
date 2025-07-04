@@ -2,7 +2,7 @@ if (obj_game.AI_pravi > 0 && array_length(obj_office.disabledcams) < 6){
 	x = originx + obj_camera.xTo
 	y = originy + obj_camera.yTo
 	
-	if (movetimer > 0){
+	if (movetimer > 0 && obj_c_beanie.movetimer > 0){
 		movetimer -= obj_game.AI_pravi
 	}
 	

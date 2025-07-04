@@ -1,3 +1,4 @@
+
 if (char < string_length(dialogue[progress])){
 	timer -= 1
 	if (timer <= 0){

@@ -1,4 +1,4 @@
-if (obj_game.AI_mathi > 0){
+if (obj_game.AI_satan > 0){
 	if (obj_cameras.offsetx > 200){
 		x = obj_camera.xTo - 200
 	}else if (obj_cameras.offsetx < 0){
@@ -68,7 +68,7 @@ if (obj_game.AI_mathi > 0){
 		
 		randomize()
 		var _move = irandom_range(1, 20)
-		if (_move <= obj_game.AI_mathi){
+		if (_move <= obj_game.AI_satan){
 			if (stage = 8){
 				if (light){
 					

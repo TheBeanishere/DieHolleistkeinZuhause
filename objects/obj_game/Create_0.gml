@@ -27,7 +27,7 @@ audio_listener_position(0, 0, 0)
 audio_falloff_set_model(audio_falloff_linear_distance)
 audio_listener_set_orientation(0, 0, 0, 1, 0, -1, 0)
 
-AI_mathi = 0
+AI_satan = 0
 AI_manimo = 0
 AI_sports = 0
 AI_joetube = 0
@@ -37,6 +37,11 @@ AI_beanie = 0
 
 AI_roachy = 0
 AI_coconut = 0
+
+AI_mathi = 0
+AI_marvel = 0
+AI_stitcher = 0
+AI_liru = 0
 
 menusquarecount = 27
 

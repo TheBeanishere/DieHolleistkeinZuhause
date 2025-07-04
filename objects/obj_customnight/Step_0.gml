@@ -3,9 +3,9 @@ if (collision_point(mouse_x, mouse_y, self, false, false)){
 		obj_game.customchallenge = 0
 		switch (customchoose){
 			case 0:
-				obj_game.AI_mathi += 1
-				obj_game.AI_mathi = clamp(obj_game.AI_mathi, 0, 20)
-				myai = obj_game.AI_mathi
+				obj_game.AI_satan += 1
+				obj_game.AI_satan = clamp(obj_game.AI_satan, 0, 20)
+				myai = obj_game.AI_satan
 			break;
 			case 1:
 				obj_game.AI_manimo += 1
@@ -53,9 +53,9 @@ if (collision_point(mouse_x, mouse_y, self, false, false)){
 		obj_game.customchallenge = 0
 		switch (customchoose){
 			case 0:
-				obj_game.AI_mathi -= 1
-				obj_game.AI_mathi = clamp(obj_game.AI_mathi, 0, 20)
-				myai = obj_game.AI_mathi
+				obj_game.AI_satan -= 1
+				obj_game.AI_satan = clamp(obj_game.AI_satan, 0, 20)
+				myai = obj_game.AI_satan
 			break;
 			case 1:
 				obj_game.AI_manimo -= 1

@@ -5,7 +5,7 @@ myai = 0
 
 switch (customchoose){
 	case 0:
-		myai = obj_game.AI_mathi
+		myai = obj_game.AI_satan
 	break;
 	case 1:
 		myai = obj_game.AI_manimo
