@@ -1,5 +1,5 @@
 if (global.cameraflipped){
-	if ((camID = 11 &&  obj_game.AI_mathi = 0)|| (((camID = 10) || (camID = 9)) && obj_game.AI_marvel = 0)){
+	if ((camID = 9||camID = 10|| camID = 11) && (global.night = 1||global.night = 2||global.night = 3||global.night = 4)){
 		
 	}else{
 		draw_self()
