@@ -32,6 +32,12 @@ function scr_customchallenge(_challenge, _right){
 	obj_game.AI_pravi = array_get(_challengearray, 4)
 	obj_game.AI_ava = array_get(_challengearray, 5)
 	obj_game.AI_beanie = array_get(_challengearray, 6)
+	obj_game.AI_roachy = array_get(_challengearray, 7)
+	obj_game.AI_coconut = array_get(_challengearray, 8)
+	obj_game.AI_mathi = array_get(_challengearray, 9)
+	obj_game.AI_marvel = array_get(_challengearray, 10)
+	obj_game.AI_stitcher = array_get(_challengearray, 11)
+	obj_game.AI_liru = array_get(_challengearray, 12)
 	
 	with (obj_customnight){
 		switch (customchoose){
@@ -61,6 +67,18 @@ function scr_customchallenge(_challenge, _right){
 			break;
 			case 8:
 				myai = obj_game.AI_coconut
+			break;
+			case 9:
+				myai = obj_game.AI_mathi
+			break;
+			case 10:
+				myai = obj_game.AI_marvel
+			break;
+			case 11:
+				myai = obj_game.AI_stitcher
+			break;
+			case 12:
+				myai = obj_game.AI_liru
 			break;
 		}
 	}

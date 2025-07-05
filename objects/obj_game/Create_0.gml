@@ -14,15 +14,15 @@ global.savefile = ""
 customchallenge = 0
 
 //0
-custom = [0, 0, 0, 0, 0, 0, 0]
+custom = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 //1
-europe = [18, 15, 15, 18, 18, 0, 0]
+europe = [18, 15, 15, 18, 18, 0, 0, 0, 0, 0, 0, 0, 0]
 //2
-annoy = [0, 14, 0, 17, 17, 12, 10]
+annoy = [0, 14, 0, 17, 17, 12, 10, 0, 0, 0, 0, 0, 0]
 //3
-crackshot = [13, 13, 13, 16, 16, 16, 13]
+crackshot = [13, 13, 13, 16, 16, 16, 13, 0, 0, 0, 0, 0, 0]
 //4
-maxmode = [20, 20, 20, 20, 20, 20, 20]
+maxmode = [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
 
 audio_listener_position(0, 0, 0)
 audio_falloff_set_model(audio_falloff_linear_distance)
@@ -42,7 +42,7 @@ AI_coconut = 0
 AI_mathi = 0
 AI_marvel = 0
 AI_stitcher = 0
-AI_liru = 20
+AI_liru = 0
 
 menusquarecount = 27
 

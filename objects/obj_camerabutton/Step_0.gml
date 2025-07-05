@@ -18,12 +18,6 @@ if (collision_point(mouse_x, mouse_y, self, false, false) && !instance_exists(ob
 	touched = false
 }
 
-if (global.cameraflipped){
-	audio_sound_gain(sfx_cam_hum, 1, 0)
-}else{
-	audio_sound_gain(sfx_cam_hum, 0, 0)
-}
-
 if (transanim != noone){
 	sprite_index = transanim
 }

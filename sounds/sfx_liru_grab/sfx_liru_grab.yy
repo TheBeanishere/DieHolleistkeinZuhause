@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_liru_grab",
+  "audioGroupId":{
+    "name":"sfx",
+    "path":"audiogroups/sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.8973243,
+  "name":"sfx_liru_grab",
+  "parent":{
+    "name":"mathinight",
+    "path":"folders/Sounds/sfx/mathinight.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_liru_grab.wav",
+  "type":1,
+  "volume":1.0,
+}

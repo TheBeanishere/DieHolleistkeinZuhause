@@ -47,6 +47,26 @@ if (collision_point(mouse_x, mouse_y, self, false, false)){
 				obj_game.AI_coconut = clamp(obj_game.AI_coconut, 0, 20)
 				myai = obj_game.AI_coconut
 			break;
+			case 9:
+				obj_game.AI_mathi += 1
+				obj_game.AI_mathi = clamp(obj_game.AI_mathi, 0, 20)
+				myai = obj_game.AI_mathi
+			break;
+			case 10:
+				obj_game.AI_marvel += 1
+				obj_game.AI_marvel = clamp(obj_game.AI_marvel, 0, 20)
+				myai = obj_game.AI_marvel
+			break;
+			case 11:
+				obj_game.AI_stitcher += 1
+				obj_game.AI_stitcher = clamp(obj_game.AI_stitcher, 0, 20)
+				myai = obj_game.AI_stitcher
+			break;
+			case 12:
+				obj_game.AI_liru += 1
+				obj_game.AI_liru = clamp(obj_game.AI_liru, 0, 20)
+				myai = obj_game.AI_liru
+			break;
 		}
 	}
 	if (mouse_wheel_down()){
@@ -96,6 +116,26 @@ if (collision_point(mouse_x, mouse_y, self, false, false)){
 				obj_game.AI_coconut -= 1
 				obj_game.AI_coconut = clamp(obj_game.AI_coconut, 0, 20)
 				myai = obj_game.AI_coconut
+			break;
+			case 9:
+				obj_game.AI_mathi -= 1
+				obj_game.AI_mathi = clamp(obj_game.AI_mathi, 0, 20)
+				myai = obj_game.AI_mathi
+			break;
+			case 10:
+				obj_game.AI_marvel -= 1
+				obj_game.AI_marvel = clamp(obj_game.AI_marvel, 0, 20)
+				myai = obj_game.AI_marvel
+			break;
+			case 11:
+				obj_game.AI_stitcher -= 1
+				obj_game.AI_stitcher = clamp(obj_game.AI_stitcher, 0, 20)
+				myai = obj_game.AI_stitcher
+			break;
+			case 12:
+				obj_game.AI_liru -= 1
+				obj_game.AI_liru = clamp(obj_game.AI_liru, 0, 20)
+				myai = obj_game.AI_liru
 			break;
 		}
 	}

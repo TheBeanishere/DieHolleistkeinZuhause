@@ -11,8 +11,8 @@
   "name":"obj_customnight",
   "overriddenProperties":[],
   "parent":{
-    "name":"cameras",
-    "path":"folders/Objects/cameras.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_custom",
-    "path":"sprites/spr_custom/spr_custom.yy",
+    "name":"spr_custom_BETTER",
+    "path":"sprites/spr_custom_BETTER/spr_custom_BETTER.yy",
   },
   "spriteMaskId":null,
   "visible":true,

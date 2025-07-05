@@ -51,6 +51,7 @@
     {"name":"inst_16D7C5B8","path":"rooms/GAME/GAME.yy",},
     {"name":"inst_7D8B1B8C","path":"rooms/GAME/GAME.yy",},
     {"name":"inst_2F2891A9","path":"rooms/GAME/GAME.yy",},
+    {"name":"inst_E0BC1E2","path":"rooms/GAME/GAME.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -127,6 +128,7 @@
         {"$GMRInstance":"v2","%Name":"inst_78B2DB77","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_78B2DB77","objectId":{"name":"obj_o_stitcher","path":"objects/obj_o_stitcher/obj_o_stitcher.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"inst_6A91F798","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A91F798","objectId":{"name":"obj_poweroutdevil","path":"objects/obj_poweroutdevil/obj_poweroutdevil.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-335.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"inst_3413EA9A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3413EA9A","objectId":{"name":"obj_o_coconut","path":"objects/obj_o_coconut/obj_o_coconut.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-335.0,"y":0.0,},
+        {"$GMRInstance":"v2","%Name":"inst_E0BC1E2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E0BC1E2","objectId":{"name":"obj_o_liru","path":"objects/obj_o_liru/obj_o_liru.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"office","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":24.0,"animationSpeedType":0,"colour":4278190080,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],

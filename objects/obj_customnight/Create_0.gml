@@ -1,5 +1,4 @@
 image_speed = 0
-image_index = customchoose
 
 myai = 0
 
@@ -30,5 +29,17 @@ switch (customchoose){
 	break;
 	case 8:
 		myai = obj_game.AI_coconut
+	break;
+	case 9:
+		myai = obj_game.AI_mathi
+	break;
+	case 10:
+		myai = obj_game.AI_marvel
+	break;
+	case 11:
+		myai = obj_game.AI_stitcher
+	break;
+	case 12:
+		myai = obj_game.AI_liru
 	break;
 }
