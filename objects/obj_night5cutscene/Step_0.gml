@@ -71,7 +71,7 @@ if (intro){
 			audio_play_sound(sfx_satan_laugh, 1, false)
 		}
 		image_xscale -= 0.001
-		image_angle = lerp(image_angle, random_range(-35, 35), 0.05)
+		image_angle = lerp(image_angle, random_range(-45, 45), 0.05)
 		image_alpha -= 0.0025/2
 		image_yscale -= 0.001
 	}
