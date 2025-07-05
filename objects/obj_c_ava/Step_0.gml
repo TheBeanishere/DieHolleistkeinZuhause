@@ -1,4 +1,4 @@
-if (obj_game.AI_ava > 0){
+if (obj_game.AI_ava > 0 && obj_office.powerleft > 0){
 	if (!audio_is_playing(mus_ava_musicbox)){
 		audio_play_sound(mus_ava_musicbox, 1, true, 0.4)
 	}

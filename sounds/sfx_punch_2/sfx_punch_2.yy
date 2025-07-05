@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_punch_2",
+  "audioGroupId":{
+    "name":"sfx",
+    "path":"audiogroups/sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.3526758,
+  "name":"sfx_punch_2",
+  "parent":{
+    "name":"customcharacters",
+    "path":"folders/Sounds/sfx/customcharacters.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_punch_2.wav",
+  "type":1,
+  "volume":1.0,
+}

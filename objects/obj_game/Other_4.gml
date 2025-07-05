@@ -13,5 +13,14 @@ if (room = MENU_custom){
 }
 
 if (room = GAME){
-	audio_play_sound(mus_customnightmaxmodeflumpyknockoff, 1, true)
+	window_set_caption("Hölle")
+}
+
+if (room = INTER_night5cutscene){
+	audio_play_sound(mus_goatsgruff, 1, true)
+	window_set_caption("I SEE YOU")
+}
+if (room = INTER_endcutscene){
+	audio_play_sound(mus_the_unforgiving, 1, true)
+	window_set_caption("...")
 }

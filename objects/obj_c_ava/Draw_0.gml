@@ -1,4 +1,4 @@
-if (global.cameraflipped && obj_game.AI_ava > 0){
+if (global.cameraflipped && obj_game.AI_ava > 0 && obj_office.powerleft > 0){
 	if (global.camera = 8){
 		if (awake){
 			if (sprite_index = spr_cameras_ava_attack){

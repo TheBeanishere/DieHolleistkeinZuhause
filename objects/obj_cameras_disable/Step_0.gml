@@ -1,4 +1,4 @@
-if (array_contains(obj_office.disabledcams, global.camera)){
+if (array_contains(obj_office.disabledcams, global.camera)||obj_office.powerleft > 0){
 	x = obj_camera.xTo
 }
 y = obj_camera.yTo

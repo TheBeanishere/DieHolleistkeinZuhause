@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_satan_laugh",
+  "audioGroupId":{
+    "name":"sfx",
+    "path":"audiogroups/sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":45.39583,
+  "name":"sfx_satan_laugh",
+  "parent":{
+    "name":"cutscene",
+    "path":"folders/Sounds/sfx/cutscene.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_satan_laugh.wav",
+  "type":1,
+  "volume":1.0,
+}

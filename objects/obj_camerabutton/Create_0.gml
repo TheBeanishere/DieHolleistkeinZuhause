@@ -1,1 +1,2 @@
 touched = false
+transanim = noone

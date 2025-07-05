@@ -3,7 +3,9 @@ y = originy + obj_camera.yTo
 
 image_index = camID - 1 + (selected * 11)
 
-if (collision_point(mouse_x, mouse_y, self, false, false) && global.cameraflipped){
+if ((camID = 11 &&  obj_game.AI_mathi = 0)|| (((camID = 10) || (camID = 9)) && obj_game.AI_marvel = 0)){
+	
+}else if (collision_point(mouse_x, mouse_y, self, false, false) && global.cameraflipped){
 	if (mouse_check_button_pressed(mb_left)){
 		global.camera = camID
 		if (!collision_point(mouse_x, mouse_y, obj_camera_music, false, false)){

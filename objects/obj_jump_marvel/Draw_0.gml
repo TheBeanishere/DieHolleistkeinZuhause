@@ -1,0 +1,6 @@
+draw_self()
+draw_set_alpha(fadeout)
+draw_set_colour(c_black)
+draw_rectangle(-335, 0, 1615, 800, false)
+draw_set_colour(c_white)
+draw_set_alpha(1)

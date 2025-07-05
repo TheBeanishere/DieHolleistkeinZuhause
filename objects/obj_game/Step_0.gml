@@ -2,7 +2,7 @@ if (room = init && audio_group_is_loaded(sfx) && audio_group_is_loaded(music)){
 	room_goto(boot)
 }
 
-if (keyboard_check_pressed(vk_f11) && room != INTER_night5cutscene){
+if (keyboard_check_pressed(vk_f11) && room != INTER_night5cutscene && room != INTER_endcutscene){
 	window_set_fullscreen(!window_get_fullscreen())
 }
 

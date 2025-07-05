@@ -1,4 +1,4 @@
-if (obj_game.AI_joetube > 0){
+if (obj_game.AI_joetube > 0 && obj_office.powerleft > 0){
 	if (obj_c_joetube.left){
 		image_xscale = 1
 		x = -335

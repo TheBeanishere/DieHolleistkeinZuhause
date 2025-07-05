@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_decisions",
+  "audioGroupId":{
+    "name":"music",
+    "path":"audiogroups/music",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":53.0893,
+  "name":"mus_decisions",
+  "parent":{
+    "name":"music",
+    "path":"folders/Sounds/music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_decisions.wav",
+  "type":1,
+  "volume":1.0,
+}

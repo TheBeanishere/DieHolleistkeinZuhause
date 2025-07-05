@@ -1,5 +1,17 @@
 image_speed = 0
+intro = true
+originx = x
+originy = y
+shake = 0
+image_alpha = 0
+endtimer = 1128
+introsfx = 0
+introdelay = 240
 dialogue = [
+	"",
+	"",
+	"",
+	"",
 	"SO YOU'VE REACHED THE END.",
 	"WAS IT FUN?",
 	"I HOPE IT WAS.",
@@ -50,7 +62,11 @@ dialogue = [
 	"LETTING YOU LEAVE.",
 	""
 ]
-shaking = [19, 20, 23, 27, 30, 36, 46]
+expression = [
+	0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 6, 6, 1, 9, 11, 2, 1, 0, 1, 6, 9, 0, 2, 0, 9, 2, 0, 7, 1, 0, 9, 0, 2, 7,
+	1, 0, 3, 4, 5, 0, 0, 2, 1, 9, 0, 1, 6, 1, 6, 1, 8
+]
+shaking = [23, 24, 27, 31, 34, 40, 50]
 progress = 0
 char = 0
 timer = 0

@@ -1,4 +1,4 @@
-if (obj_game.AI_pravi > 0 && array_length(obj_office.disabledcams) < 6){
+if (obj_game.AI_pravi > 0 && array_length(obj_office.disabledcams) < 6 && obj_office.powerleft > 0){
 	x = originx + obj_camera.xTo
 	y = originy + obj_camera.yTo
 	
@@ -9,7 +9,7 @@ if (obj_game.AI_pravi > 0 && array_length(obj_office.disabledcams) < 6){
 	if (movetimer <= 0 && sprite_index != spr_pravi_explode){
 		if (!audio_is_playing(sfx_pravi_sax_1) && !audio_is_playing(sfx_pravi_sax_2)){
 			do{
-				if (night = 1||night = 2||night = 3||night = 4){
+				if (global.night  = 1||global.night  = 2||global.night  = 3||global.night  = 4){
 					cam = choose(1, 2, 3, 4, 6, 7)
 				}else{
 					cam = choose(1, 2, 3, 4, 6, 7, 9, 11, 10)
@@ -22,13 +22,13 @@ if (obj_game.AI_pravi > 0 && array_length(obj_office.disabledcams) < 6){
 			fuse -= 1
 			if (global.camera = cam && global.cameraflipped && sprite_index != spr_pravi_explode){
 				stare += 1
-				if (stare >= 160){
+				if (stare >= 75){
 					audio_stop_sound(sfx_pravi_sax_1)
 					audio_stop_sound(sfx_pravi_sax_2)
 					audio_play_sound(sfx_pravi_bonk, 1, false, 0.6)
-					movetimer = 38400/20
+					movetimer = 38400
 					scr_camerastatic()
-					fuse = 600/10
+					fuse = 600
 					stare = 0
 				}
 			}

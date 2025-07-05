@@ -1,4 +1,4 @@
-if (!global.cameraflipped && obj_c_manimo.stage > 4 && !instance_exists(obj_jump_manimo)){
+if (!global.cameraflipped && (obj_c_manimo.stage > 4||transanim != noone) && !instance_exists(obj_jump_manimo) && obj_office.powerleft > 0){
 	if (transanim != 0 && sprite_index != spr_office_manimo_stand){
 		if (obj_c_manimo.mirror){
 				if (obj_door_right.lightalpha < 0.9){

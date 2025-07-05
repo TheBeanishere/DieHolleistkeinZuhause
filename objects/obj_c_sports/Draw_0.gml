@@ -1,4 +1,4 @@
-if (global.cameraflipped && obj_game.AI_sports > 0){
+if (global.cameraflipped && obj_game.AI_sports > 0 && obj_office.powerleft > 0){
 	if (stage = 1 && global.camera = 2){
 		image_index = 1
 		draw_self()

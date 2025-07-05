@@ -24,7 +24,8 @@ if (hours = 6){
 	game_end()
 }
 
-if (powerleft <= 0){
+if (powerleft <= 0 && !obj_poweroutdevil.active){
+	audio_stop_all()
 	if (obj_lever_left.shut){
 		obj_lever_left.shut = false
 		obj_door_left.transanim = spr_office_door_off
@@ -37,4 +38,6 @@ if (powerleft <= 0){
 		obj_door_right.image_index = 0
 		audio_play_sound_at(sfx_door_open, 50, 0, 0, 100, 200, 1, false, 1, 0.7)
 	}
+	obj_poweroutdevil.active = true
+	audio_play_sound(sfx_powerdown, 1, false)
 }

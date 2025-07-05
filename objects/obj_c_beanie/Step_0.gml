@@ -1,9 +1,9 @@
-if (obj_game.AI_beanie > 0){
+if (obj_game.AI_beanie > 0 && obj_office.powerleft > 0){
 	x = originx + obj_camera.xTo + offsetx
 	y = originy + obj_camera.yTo
 	if (movetimer > 0){
 		do{	
-			if (night = 1||night = 2||night = 3||night = 4){
+			if (global.night  = 1||global.night  = 2||global.night  = 3||global.night  = 4){
 				place = choose(1, 2, 3, 4, 6, 7)
 			}else{
 				place = choose(1, 2, 3, 4, 6, 7, 9, 10, 11)
@@ -21,10 +21,10 @@ if (obj_game.AI_beanie > 0){
 			show_debug_message(string(place))
 			if (global.camera = place && global.cameraflipped){
 				stare += 1
-				if (stare > 45){
+				if (stare > 30){
 					offsetx = irandom_range(8, -8)
 				}
-				if (stare > 89){
+				if (stare > 59){
 					killtimer = 360
 					stare = 0
 					audio_stop_sound(sfx_beanie_breath)

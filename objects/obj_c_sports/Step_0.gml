@@ -1,4 +1,4 @@
-if (obj_game.AI_sports > 0){
+if (obj_game.AI_sports > 0 && obj_office.powerleft > 0){
 	if (stage = 6){
 		killtimer -= 1
 		if (killtimer <= 0){

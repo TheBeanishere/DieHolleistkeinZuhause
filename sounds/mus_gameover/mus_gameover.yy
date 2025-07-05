@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":13.66517,
   "name":"mus_gameover",
   "parent":{
     "name":"music",

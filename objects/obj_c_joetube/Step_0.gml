@@ -1,4 +1,4 @@
-if (obj_game.AI_joetube > 0){
+if (obj_game.AI_joetube > 0 && obj_office.powerleft > 0){
 	if (obj_cameras.offsetx > 200){
 		x = obj_camera.xTo - 200
 	}else if (obj_cameras.offsetx < 0){

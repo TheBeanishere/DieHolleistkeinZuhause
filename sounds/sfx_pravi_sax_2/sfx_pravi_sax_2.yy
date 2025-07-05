@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":26.495533,
+  "duration":9.977687,
   "name":"sfx_pravi_sax_2",
   "parent":{
     "name":"pravi",

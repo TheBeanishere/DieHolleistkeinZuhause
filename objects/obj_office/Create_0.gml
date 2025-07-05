@@ -7,7 +7,7 @@ doorright = false
 
 disabledcams = []
 
-powermax = 1000
+powermax = 1000/100
 powerleft = powermax
 
 usage = 0

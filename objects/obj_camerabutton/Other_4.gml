@@ -1,0 +1,1 @@
+audio_play_sound(sfx_cam_hum, 1, true, 0.2)

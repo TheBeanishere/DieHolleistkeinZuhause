@@ -3,9 +3,9 @@ if (shut){
 }else{
 	image_index = 0
 }
-if (!global.cameraflipped){
+if (!global.cameraflipped && obj_office.powerleft > 0){
 	if (obj_c_joetube.stage < 5 || obj_o_joetube.image_alpha = 0 || !obj_c_joetube.left){
-		if (collision_point(mouse_x, mouse_y, self, false, false)){
+		if (collision_point(mouse_x, mouse_y, self, false, false) && (!collision_point(mouse_x, mouse_y, obj_o_coconut, false, true) || !obj_o_coconut.active)){
 			if (mouse_check_button(mb_left)){
 				clicked = true
 				if (mouse_y < 320){
