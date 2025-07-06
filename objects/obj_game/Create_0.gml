@@ -5,11 +5,10 @@ global.font = font_add("thefont.ttf", 16, false, false, 32, 128)
 global.bigfont = font_add("thefont.ttf", 24, false, false, 32, 128)
 draw_set_font(global.font)
 
-global.night = 5 //1, 2, 3, 4, 5, 6, custom
+global.night = 1 //1, 2, 3, 4, 5, 6, custom
 global.camera = 1
 global.cameraflipped = false
-
-global.savefile = ""
+global.killedby = -1
 
 customchallenge = 0
 
@@ -57,4 +56,18 @@ specialnames = ["JESSE", "BRITTNEY", "MITCH", "ZANY", "WILLOW", "FIERE"]
 
 ini_open(savedata)
 name = ini_read_string("data", "name", "")
+if (ini_read_real("data", "night5", 0)){
+	beatennight = 6
+}else if (ini_read_real("data", "night4", 0)){
+	beatennight = 5
+}else if (ini_read_real("data", "night3", 0)){
+	beatennight = 4
+}else if (ini_read_real("data", "night2", 0)){
+	beatennight = 3
+}else if (ini_read_real("data", "night1", 0)){
+	beatennight = 2
+}else{
+	beatennight = 1
+}
+beatennight6 = ini_read_real("data", "night6", 0)
 ini_close()

@@ -74,6 +74,10 @@ if (room = MENU_savecreate){
 	}
 }
 
+if (room = GAME){
+	
+}
+
 if (room = MENU_custom){
 	if (keyboard_check_pressed(vk_enter)){
 		room_goto(GAME)

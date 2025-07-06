@@ -4,7 +4,8 @@ obj_camera.yTo = 40
 timer -= 1
 
 if (timer <= 0){
-	room_goto(MENU_custom)
+	room_goto(MENU_gameover)
+	global.killedby = 8
 }
 
 if (timer mod 3 = 0){

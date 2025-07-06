@@ -1,7 +1,13 @@
 global.cameraflipped = false
 global.camera = 1
 
+window_set_caption("Die Hölle ist kein Zuhause(English Translation)")
+
 audio_stop_all()
+
+if (room = GAME){
+
+}
 
 if (room = MENU_main){
 	menusquarecount = 27
@@ -9,11 +15,15 @@ if (room = MENU_main){
 }
 
 if (room = MENU_custom){
-	audio_play_sound(mus_scary, 1, true)
+	audio_play_sound(mus_decisions, 1, true)
 }
 
-if (room = GAME){
-	window_set_caption("Hölle")
+if (room = WIN){
+	audio_play_sound(mus_satansleeps, 1, false)
+}
+
+if (room = MENU_gameover){
+	audio_play_sound(mus_gameover, 1, false)
 }
 
 if (room = INTER_night5cutscene){

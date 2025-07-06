@@ -1,1 +1,2 @@
-room_goto(MENU_custom)
+room_goto(MENU_gameover)
+global.killedby = 7

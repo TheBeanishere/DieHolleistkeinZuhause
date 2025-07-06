@@ -21,13 +21,32 @@ if (time > 2700){
 	hours += 1
 }
 
-time += 1
+time += 1 * 270
 
 //TEMP
 
 if (hours = 6){
-	show_message("YOU WIN")
-	game_end()
+	ini_open(savedata)
+	ini_write_real("data", "night" + string(global.night), true)
+	ini_close()
+	if (global.night != 6 && global.night != "c"){
+		ini_open(savedata)
+		if (ini_read_real("data", "night5", 0)){
+			beatennight = 6
+		}else if (ini_read_real("data", "night4", 0)){
+			beatennight = 5
+		}else if (ini_read_real("data", "night3", 0)){
+			beatennight = 4
+		}else if (ini_read_real("data", "night2", 0)){
+			beatennight = 3
+		}else if (ini_read_real("data", "night1", 0)){
+			beatennight = 2
+		}else{
+			beatennight = 1
+		}
+		ini_close()
+	}
+	room_goto(WIN)
 }
 
 if (powerleft <= 0 && !obj_poweroutdevil.active){

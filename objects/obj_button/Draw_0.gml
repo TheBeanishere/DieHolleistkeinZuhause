@@ -13,4 +13,7 @@ if (letter < string_length(name)){
 		draw_text(x, y, string_copy(name, 1, letter))
 	}
 }
+if (name = "play" && letter >= string_length("play")){
+	draw_text(x + string_width("play"), y, "  night " + string(currnight))
+}
 draw_set_valign(fa_top)

@@ -11,9 +11,20 @@ if (letter < string_length(name)){
 }
 if (collision_circle(mouse_x, mouse_y, 3, self, false, false)){
 	
+	if (name = "play"){
+		if (mouse_wheel_up()){
+			currnight += 1
+		}
+		if (mouse_wheel_down()){
+			currnight -= 1
+		}
+		currnight = clamp(currnight, 1, 5)
+	}
+	
 	if (mouse_check_button_pressed(mb_left)){
 		if (name = "play"){
-			room_goto(MENU_custom)
+			global.night = currnight
+			room_goto(GAME)
 		}
 		if (name = "quit"){
 			game_end()

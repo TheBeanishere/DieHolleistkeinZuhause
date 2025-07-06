@@ -1,0 +1,8 @@
+draw_set_alpha(drawalpha)
+draw_set_font(global.bigfont)
+draw_set_halign(fa_center)
+draw_set_valign(fa_middle)
+draw_text_transformed(640, 360, string_copy("It's Six o'Clock.\nTime to get on with your day.", 0, char), 2,2, 0)
+draw_set_alpha(1)
+draw_set_halign(fa_right)
+draw_set_valign(fa_top)
