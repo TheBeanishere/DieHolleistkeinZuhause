@@ -67,7 +67,7 @@ expression = [
 	1, 0, 3, 4, 5, 0, 0, 2, 1, 9, 0, 1, 6, 1, 6, 1, 8
 ]
 shaking = [23, 24, 27, 31, 34, 40, 50]
-progress = 50
+progress = 0
 char = 0
 timer = 0
 nextdialogue = 180

@@ -55,8 +55,7 @@ if (intro){
 	}else{
 		image_alpha -= 0.005
 		if (image_alpha <= 0){
-			//room_goto(MENU_credits)
-			room_goto(MENU_main)
+			room_goto(CREDITS)
 		}
 	}
 }
