@@ -14,17 +14,21 @@ customchallenge = 0
 
 //0
 custom = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
- = []
-mathi = [20, 0, 0, 0, 0, 0, 0, 0, 0, 20, 20, 20, 20]
-ambush = [0, 0, 16, 15, 10, 0, 0, 14, 18, 14, 0, 14, 0]
-furry = [0, 0, 13, 17, 18, 0, 15, 0, 15, 14, 0, 0, 18]
 //1
-europe = [18, 15, 15, 18, 18, 0, 0, 0, 0, 14, 16, 0, 0]
+nightseven = [13, 16, 16, 18, 12, 13, 14, 5, 7, 7, 7, 7, 10]
 //2
-annoy = [0, 14, 0, 17, 17, 12, 10, 18, 14, 0, 0, 0, 16]
+mathi = [20, 0, 0, 0, 0, 0, 0, 0, 0, 20, 20, 20, 20]
 //3
-crackshot = [13, 13, 13, 16, 16, 16, 13, 16, 13, 13, 13, 13, 16]
+ambush = [0, 0, 16, 15, 10, 0, 0, 14, 18, 14, 0, 14, 0]
 //4
+furry = [0, 0, 13, 17, 18, 0, 15, 0, 15, 14, 0, 0, 18]
+//5
+europe = [18, 15, 15, 18, 18, 0, 0, 0, 0, 14, 16, 0, 0]
+//6
+annoy = [0, 14, 0, 17, 17, 12, 10, 18, 14, 0, 0, 0, 16]
+//7
+crackshot = [13, 13, 13, 16, 16, 16, 13, 16, 13, 13, 13, 13, 16]
+//8
 maxmode = [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
 
 audio_listener_position(0, 0, 0)
@@ -74,4 +78,8 @@ if (ini_read_real("data", "night5", 0)){
 	beatennight = 1
 }
 beatennight6 = ini_read_real("data", "night6", 0)
+jumpscareness = ini_read_real("options","jumpscare", true)
+window_set_fullscreen(ini_read_real("options","fullscreen", false))
+audio_group_set_gain(sfx, ini_read_real("options", "sfx", 1), 0)
+audio_group_set_gain(music, ini_read_real("options", "music", 1), 0)
 ini_close()

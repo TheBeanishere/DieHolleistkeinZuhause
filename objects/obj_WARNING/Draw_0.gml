@@ -1,0 +1,7 @@
+draw_set_colour(c_black)
+draw_set_alpha(0.55)
+draw_rectangle(-335, 0, 1615, 800, false)
+draw_set_colour(c_white)
+draw_set_alpha(1)
+draw_self()
+draw_text_transformed(x - string_width("Click 3 times to dismiss"), bbox_bottom, "Click 3 times to dismiss", 2, 2, 0)

@@ -67,6 +67,3 @@ progress = 0
 char = 0
 timer = 0
 nextdialogue = 180
-window_set_fullscreen(false)
-targetwidth = 640
-targetheight = 360

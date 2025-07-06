@@ -2,12 +2,12 @@ if (room = init && audio_group_is_loaded(sfx) && audio_group_is_loaded(music)){
 	room_goto(boot)
 }
 
-if (keyboard_check_pressed(vk_f11) && room != INTER_night5cutscene && room != INTER_endcutscene){
+if (keyboard_check_pressed(vk_f11)){
 	window_set_fullscreen(!window_get_fullscreen())
 }
 
-if (keyboard_check_pressed(vk_escape) && room = GAME){
-	room_goto(MENU_custom)
+if (keyboard_check_pressed(vk_escape) && room != MENU_main){
+	room_goto(MENU_main)
 }
 
 if (room = MENU_savecreate){
@@ -45,6 +45,8 @@ if (room = MENU_savecreate){
 					nameline = ini_read_string("nononames", _tempstring, "fuck")
 					ini_close()
 					namedeny = true
+					var _pitch = random_range(0.9, 1.1)
+					audio_play_sound(sfx_WRONG, 1, false, 1, 0, _pitch)
 				}
 				_times += 1
 			}

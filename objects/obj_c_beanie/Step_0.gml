@@ -25,10 +25,10 @@ if (obj_game.AI_beanie > 0 && obj_office.powerleft > 0){
 					offsetx = irandom_range(8, -8)
 				}
 				if (stare > 59){
-					killtimer = 360
+					killtimer = 420
 					stare = 0
 					audio_stop_sound(sfx_beanie_breath)
-					movetimer = 18000
+					movetimer = 16000
 				}
 			}else{
 				killtimer -= 1

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":3.197914,
+  "duration":3.2008843,
   "name":"sfx_sports_run_right",
   "parent":{
     "name":"sports",

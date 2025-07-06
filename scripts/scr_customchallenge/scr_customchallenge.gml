@@ -7,21 +7,29 @@ function scr_customchallenge(_challenge, _right){
 		obj_game.customchallenge -= 1
 	}
 	if (obj_game.customchallenge = -1){
-		obj_game.customchallenge = 4
+		obj_game.customchallenge = 8
 	}
-	if (obj_game.customchallenge = 5){
+	if (obj_game.customchallenge = 9){
 		obj_game.customchallenge = 0
 	}
 	var _challengearray = []
 	if (obj_game.customchallenge = 0){
 		_challengearray = obj_game.custom
 	}else if (obj_game.customchallenge = 1){
-		_challengearray = obj_game.europe
+		_challengearray = obj_game.nightseven
 	}else if (obj_game.customchallenge = 2){
-		_challengearray = obj_game.annoy
+		_challengearray = obj_game.mathi
 	}else if (obj_game.customchallenge = 3){
-		_challengearray = obj_game.crackshot
+		_challengearray = obj_game.ambush
 	}else if (obj_game.customchallenge = 4){
+		_challengearray = obj_game.furry
+	}else if (obj_game.customchallenge = 5){
+		_challengearray = obj_game.europe
+	}else if (obj_game.customchallenge = 6){
+		_challengearray = obj_game.annoy
+	}else if (obj_game.customchallenge = 7){
+		_challengearray = obj_game.crackshot
+	}else if (obj_game.customchallenge = 8){
 		_challengearray = obj_game.maxmode
 	}
 	

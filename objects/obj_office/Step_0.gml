@@ -1,4 +1,4 @@
-usage = doorleft + doorright + lightleft + lightright + global.cameraflipped + 0.5
+usage = doorleft + doorright + lightleft + lightright + global.cameraflipped
 
 if (obj_c_pravi.movetimer <= 0){
 	usage += 0.65
@@ -19,9 +19,99 @@ powerleft -= usage/30
 if (time > 2700){
 	time = 0
 	hours += 1
+	if (hours = 1){
+		if (global.night = 5){
+			obj_game.AI_satan += 2
+			obj_game.AI_mathi += 0
+			obj_game.AI_stitcher += 8
+			obj_game.AI_marvel += 0
+			obj_game.AI_liru += 0
+			with(instance_create_layer(0, 0, "warning", obj_WARNING)){
+				image_index = 0
+			}
+		}
+	}
+	if (hours = 2){
+		if (global.night = 1){
+			obj_game.AI_manimo = 1
+			obj_game.AI_sports = 1
+		}
+		if (global.night = 2){
+			obj_game.AI_manimo += 2
+			obj_game.AI_joetube += 2
+		}
+		if (global.night = 5){
+			obj_game.AI_satan += 2
+			obj_game.AI_mathi += 0
+			obj_game.AI_stitcher += 1
+			obj_game.AI_marvel += 12
+			obj_game.AI_liru += 0
+			with(instance_create_layer(0, 0, "warning", obj_WARNING)){
+				image_index = 1
+			}
+		}
+	}
+	if (hours = 3){
+		if (global.night = 1){
+			obj_game.AI_manimo = 3
+			obj_game.AI_sports = 3
+			obj_game.AI_satan = 1
+		}
+		if (global.night = 3){
+			obj_game.AI_ava += 1
+			obj_game.AI_sports += 1
+			obj_game.AI_manimo += 3
+			obj_game.AI_pravi += 1
+			obj_game.AI_joetube += 1
+			obj_game.AI_beanie += 1
+			obj_game.AI_satan += 1
+		}
+		if (global.night = 5){
+			obj_game.AI_satan += 2
+			obj_game.AI_mathi += 0
+			obj_game.AI_stitcher += 1
+			obj_game.AI_marvel += 1
+			obj_game.AI_liru += 11
+			with(instance_create_layer(0, 0, "warning", obj_WARNING)){
+				image_index = 3
+			}
+		}
+		if (global.night = 6){
+			obj_game.AI_mathi += 4
+			obj_game.AI_stitcher += 4
+			obj_game.AI_marvel += 4
+			obj_game.AI_liru += 4
+		}
+	}
+	if (hours = 4){
+		if (global.night = 1){
+			obj_game.AI_manimo += 1
+		}
+		if (global.night = 2){
+			obj_game.AI_sports += 2
+			obj_game.AI_joetube += 2
+		}
+		if (global.night = 5){
+			obj_game.AI_satan = 19
+			obj_game.AI_mathi += 15
+			obj_game.AI_stitcher += 2
+			obj_game.AI_marvel += 2
+			obj_game.AI_liru += 6
+			with(instance_create_layer(0, 0, "warning", obj_WARNING)){
+				image_index = 2
+			}
+		}
+	}
+	if (hours = 5){
+		if (global.night = 1){
+			obj_game.AI_manimo = 4
+			obj_game.AI_sports = 4
+			obj_game.AI_satan = 1
+		}
+	}
 }
 
-time += 1 * 270
+time += 1 
 
 //TEMP
 
@@ -52,7 +142,11 @@ if (hours = 6){
 	}else if (global.night = 6){
 		obj_game.beatennight6 = 1
 	}
-	room_goto(WIN)
+	if (global.night != 5){	
+		room_goto(WIN)
+	}else{
+		room_goto(INTER_endcutscene)
+	}
 }
 
 if (powerleft <= 0 && !obj_poweroutdevil.active){

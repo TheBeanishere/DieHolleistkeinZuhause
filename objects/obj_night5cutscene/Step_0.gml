@@ -77,8 +77,6 @@ if (intro){
 		image_yscale -= 0.001
 	}
 }
-var _rand = irandom_range(-2, 2)
-window_set_size(lerp(window_get_width(), targetwidth + _rand, 0.01), lerp(window_get_height(), targetheight + _rand, 0.01))
 window_center()
 if (shake > 0){
 	shake = lerp(shake, 0, 0.02)

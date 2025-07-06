@@ -40,6 +40,29 @@ if (room = MENU_savecreate){
 }
 
 if (room = MENU_custom){
-	
+	var _challenge = ""
+	if (customchallenge = 0){
+		_challenge = "None"
+	}else if (customchallenge = 1){
+		_challenge = "Night 7"
+	}else if (customchallenge = 2){
+		_challenge = "Mathi Mania"
+	}else if (customchallenge = 3){
+		_challenge = "Ambushers"
+	}else if (customchallenge = 4){
+		_challenge = "Anthro con"
+	}else if (customchallenge = 5){
+		_challenge = "European Union"
+	}else if (customchallenge = 6){
+		_challenge = "The Annoying Fucks"
+	}else if (customchallenge = 7){
+		_challenge = "Crackshot"
+	}else if (customchallenge = 8){
+		_challenge = "The death of Dante"
+	}
+	draw_text(670, 10, "CHALLENGE: " + _challenge)
+	draw_text(1180, 0, "D\nA\nN\nG\nE\nR")
+	draw_rectangle(1280, 0, 1200, 300, false)
+	draw_healthbar(1270, 10, 1210, 290, (((AI_ava + AI_beanie + AI_coconut + AI_joetube + AI_liru + AI_manimo + AI_marvel + AI_mathi + AI_pravi + AI_roachy + AI_satan + AI_sports + AI_stitcher)/260)*100), c_black, c_green, c_red, 3, false, false)
 }
 	

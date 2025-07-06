@@ -27,16 +27,11 @@ if (obj_game.AI_ava > 0 && obj_office.powerleft > 0){
 	}
 	y = obj_camera.yTo
 	
-	if (global.cameraflipped && global.camera = 8){
-		audio_sound_gain(mus_ava_musicbox, 1.25, 50)
-	}else{
-		audio_sound_gain(mus_ava_musicbox, 0.75, 50)
-	}
-	
 	if (awake){
 		audio_sound_pitch(mus_ava_musicbox, lerp(audio_sound_get_pitch(mus_ava_musicbox), 0.6, 0.01))
 		audio_sound_gain(mus_ava_musicbox, 0, 3000)
 	}else{
+		audio_sound_gain(mus_ava_musicbox, 0, 240)
 		audio_sound_pitch(mus_ava_musicbox, 1)
 	}
 	

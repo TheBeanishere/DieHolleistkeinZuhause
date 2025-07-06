@@ -38,5 +38,6 @@ if (!global.cameraflipped){
 }
 
 if (transanim != noone){
+	obj_office.doorleft = true
 	sprite_index = transanim
 }

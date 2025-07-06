@@ -9,7 +9,7 @@ if (obj_game.AI_joetube > 0 && obj_office.powerleft > 0){
 	y = obj_camera.yTo
 	movetimer -= 1
 	if (movetimer <= 0){
-		movetimer = 200
+		movetimer = 220
 		randomize()
 		var _move = irandom_range(1, 20)
 		if (_move <= obj_game.AI_joetube){

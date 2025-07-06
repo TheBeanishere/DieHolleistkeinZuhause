@@ -19,3 +19,7 @@ if (global.cameraflipped){
 	audio_play_sound(sfx_cam_down, 1, false, 0.2)
 	global.cameraflipped = false
 }
+if (!obj_game.jumpscareness){
+	room_goto(MENU_gameover)
+	global.killedby = 6
+}

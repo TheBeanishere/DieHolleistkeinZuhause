@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_sports_story",
+  "audioGroupId":{
+    "name":"sfx",
+    "path":"audiogroups/sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":149.26138,
+  "name":"sfx_sports_story",
+  "parent":{
+    "name":"sports",
+    "path":"folders/Sounds/sfx/sports.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_sports_story.mp3",
+  "type":1,
+  "volume":1.0,
+}
