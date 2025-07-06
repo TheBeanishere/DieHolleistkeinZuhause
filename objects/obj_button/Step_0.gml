@@ -26,6 +26,14 @@ if (collision_circle(mouse_x, mouse_y, 3, self, false, false)){
 			global.night = currnight
 			room_goto(GAME)
 		}
+		if (name = "night 6"){
+			global.night = 6
+			room_goto(GAME)
+		}
+		if (name = "custom night"){
+			global.night = "c"
+			room_goto(MENU_custom)
+		}
 		if (name = "quit"){
 			game_end()
 		}

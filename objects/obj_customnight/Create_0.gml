@@ -1,6 +1,7 @@
 image_speed = 0
 
 myai = 0
+drawcolour = #000000
 
 switch (customchoose){
 	case 0:

@@ -4,7 +4,7 @@ y = originy + obj_camera.yTo
 if (collision_point(mouse_x, mouse_y, self, false, false)){
 	if (mouse_check_button_pressed(mb_left) && obj_game.AI_mathi > 0 && cooldown <= 0 && global.camera = 11 && global.cameraflipped = true){
 		audio_play_sound(sfx_toilet, 1, false)
-		cooldown = 1200
+		cooldown = 1100
 		scr_camerastatic()
 		obj_c_mathi5000.movetimer = 435
 		obj_c_mathi5000.stage = 1

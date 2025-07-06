@@ -79,7 +79,11 @@ if (room = GAME){
 }
 
 if (room = MENU_custom){
+	if (keyboard_check_pressed(vk_escape)){
+		room_goto(MENU_main)
+	}
 	if (keyboard_check_pressed(vk_enter)){
+		global.night = "c"
 		room_goto(GAME)
 	}
 	if (keyboard_check_pressed(vk_right)){

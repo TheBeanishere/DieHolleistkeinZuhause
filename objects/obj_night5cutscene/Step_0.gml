@@ -57,7 +57,8 @@ if (intro){
 		if (endtimer > 0){
 			endtimer -= 1
 		}else{
-			room_goto(MENU_main)
+			room_goto(GAME)
+			global.night = 5
 		}
 		shake = 25
 		//audio_sound_gain(mus_goatsgruff, lerp(audio_sound_get_gain(mus_goatsgruff), 0, 0.05), 0)

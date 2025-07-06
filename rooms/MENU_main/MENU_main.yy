@@ -14,6 +14,9 @@
     {"name":"inst_23EC470E","path":"rooms/MENU_main/MENU_main.yy",},
     {"name":"inst_35B07459","path":"rooms/MENU_main/MENU_main.yy",},
     {"name":"inst_3BBC2BAA","path":"rooms/MENU_main/MENU_main.yy",},
+    {"name":"inst_5E97A7F5","path":"rooms/MENU_main/MENU_main.yy",},
+    {"name":"inst_551F2CE7","path":"rooms/MENU_main/MENU_main.yy",},
+    {"name":"inst_61045599","path":"rooms/MENU_main/MENU_main.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -51,6 +54,15 @@
         {"$GMRInstance":"v2","%Name":"inst_23EC470E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_23EC470E","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"name","path":"objects/obj_button/obj_button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"quit\"",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.5,"scaleY":1.0,"x":112.0,"y":640.0,},
+        {"$GMRInstance":"v2","%Name":"inst_5E97A7F5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5E97A7F5","objectId":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},"propertyId":{"name":"achieve","path":"objects/obj_star/obj_star.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"night5\"",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1105.0,"y":545.0,},
+        {"$GMRInstance":"v2","%Name":"inst_551F2CE7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_551F2CE7","objectId":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},"propertyId":{"name":"achieve","path":"objects/obj_star/obj_star.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"night6\"",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":544.0,},
+        {"$GMRInstance":"v2","%Name":"inst_61045599","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_61045599","objectId":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},"propertyId":{"name":"achieve","path":"objects/obj_star/obj_star.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"night6\"",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":544.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_5EBD152","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_5EBD152","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.85,"scaleY":0.85,"spriteId":{"name":"spr_satan","path":"sprites/spr_satan/spr_satan.yy",},"x":1280.0,"y":720.0,},
