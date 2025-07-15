@@ -36,6 +36,7 @@ if (collision_circle(mouse_x, mouse_y, 3, self, false, false)){
 		}
 		if (name = "custom night"){
 			global.night = "c"
+			obj_game.customchallenge = 0
 			room_goto(MENU_custom)
 		}
 		if (name = "credits"){

@@ -5,7 +5,7 @@ if (obj_game.AI_roachy > 0 && obj_office.powerleft > 0){
 		repeat(spawnamounts[obj_game.AI_roachy]){
 			instance_create_layer(0, 0, "popup", obj_c_roachy_popup)
 		}
-		spawntimer = 2400
+		spawntimer = 1200
 	}
 	if (collision_point(mouse_x, mouse_y, obj_c_roachy_popup, false, true) && global.cameraflipped){
 		if (mouse_check_button_pressed(mb_left)){

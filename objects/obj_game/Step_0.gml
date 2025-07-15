@@ -1,5 +1,6 @@
 if (room = init && audio_group_is_loaded(sfx) && audio_group_is_loaded(music)){
 	room_goto(boot)
+	initdelay -= 1
 }
 
 if (keyboard_check_pressed(vk_f11)){
@@ -77,7 +78,9 @@ if (room = MENU_savecreate){
 }
 
 if (room = GAME){
-	
+	if (keyboard_check_pressed(ord("R"))){
+		room_goto(GAME)
+	} 
 }
 
 if (room = MENU_custom){

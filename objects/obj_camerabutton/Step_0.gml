@@ -20,4 +20,14 @@ if (collision_point(mouse_x, mouse_y, self, false, false) && !instance_exists(ob
 
 if (transanim != noone){
 	sprite_index = transanim
+	image_speed = 1
+}else{
+	image_speed = 0
+	if (obj_c_ava.wind <= 1250){
+		image_index = 2
+	}else if (obj_c_ava.wind <= 3500){
+		image_index = 1
+	}else{
+		image_index = 0
+	}
 }

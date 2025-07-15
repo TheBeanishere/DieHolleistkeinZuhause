@@ -1,7 +1,7 @@
 usage = doorleft + doorright + lightleft + lightright + global.cameraflipped
 
 if (obj_c_pravi.movetimer <= 0){
-	usage += 0.65
+	usage += 1
 }
 
 if (global.cameraflipped){

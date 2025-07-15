@@ -1,6 +1,10 @@
 global.cameraflipped = false
 global.camera = 1
 
+ini_open(savedata)
+scungeness = ini_read_real("options", "scunge", 0)
+ini_close()
+
 window_set_caption("Die Hölle ist kein Zuhause(English Translation)")
 
 audio_stop_all()
@@ -68,7 +72,6 @@ if (room = GAME){
 	}
 	if (global.night = 4){
 		audio_play_sound(mus_even, 1, true, 0.5)
-		audio_play_sound(sfx_call_3, 1, false, 1.35)
 		
 		AI_satan = 8
 		AI_manimo = 11
@@ -141,6 +144,23 @@ if (room = MENU_main){
 
 if (room = MENU_custom){
 	audio_play_sound(mus_decisions, 1, true)
+	AI_satan = 0
+	AI_manimo = 0
+	AI_sports = 0
+	AI_joetube = 0
+	AI_ava = 0
+	AI_pravi = 0
+	AI_beanie = 0
+
+	AI_roachy = 0
+	AI_coconut = 0
+
+	AI_mathi = 0
+	AI_marvel = 0
+	AI_stitcher = 0
+	AI_liru = 0
+	
+	customchallenge = 0
 }
 
 if (room = WIN){

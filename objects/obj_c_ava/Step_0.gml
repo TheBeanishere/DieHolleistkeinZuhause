@@ -3,18 +3,23 @@ if (obj_game.AI_ava > 0 && obj_office.powerleft > 0){
 		audio_play_sound(mus_ava_musicbox, 1, true, 0.4)
 	}
 	if (wind <= 0){
-		if (!awake){
-			if (global.camera = 8){
-				scr_camerastatic()
+		if (breaktime > 0){
+			breaktime -= 1
+		}else{
+			if (!awake){
+				if (global.camera = 8){
+					scr_camerastatic()
+				}
+				sprite_index = spr_cameras_ava_attack
+				image_index = 0
+				awake = true
+				obj_office.powerleft -= obj_office.powermax/2
+				audio_stop_sound(mus_ava_musicbox)
+				audio_play_sound(sfx_ava_break, 1, false, 1.4)
 			}
-			sprite_index = spr_cameras_ava_attack
-			image_index = 0
-			awake = true
-			obj_office.powerleft -= obj_office.powermax/2
-			audio_stop_sound(mus_ava_musicbox)
-			audio_play_sound(sfx_ava_break, 1, false, 1.4)
 		}
 	}else{
+		breaktime = 120
 		wind -= obj_game.AI_ava/2
 	}
 	

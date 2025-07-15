@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_dletarune",
+  "audioGroupId":{
+    "name":"music",
+    "path":"audiogroups/music",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":270.00522,
+  "name":"mus_dletarune",
+  "parent":{
+    "name":"music",
+    "path":"folders/Sounds/music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_dletarune.wav",
+  "type":1,
+  "volume":1.0,
+}

@@ -1,6 +1,10 @@
 audio_group_load(sfx)
 audio_group_load(music)
 
+initdelay = 180
+
+deltarune = 15330
+
 global.font = font_add("thefont.ttf", 16, false, false, 32, 128)
 global.bigfont = font_add("thefont.ttf", 24, false, false, 32, 128)
 draw_set_font(global.font)
@@ -81,5 +85,6 @@ beatennight6 = ini_read_real("data", "night6", 0)
 jumpscareness = ini_read_real("options","jumpscare", true)
 window_set_fullscreen(ini_read_real("options","fullscreen", false))
 audio_group_set_gain(sfx, ini_read_real("options", "sfx", 1), 0)
+scungeness = ini_read_real("options", "scunge", 0)
 audio_group_set_gain(music, ini_read_real("options", "music", 1), 0)
 ini_close()
